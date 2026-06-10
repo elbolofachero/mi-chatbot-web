@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 CORS(app)
 
-MODEL = "llama3.1:8b"
+MODEL = "dolphin-mistral:latest"
 
 SYSTEM_PROMPT = """
 Eres una IA local privada, directa y sin filtros corporativos.
